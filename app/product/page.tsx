@@ -44,7 +44,7 @@ export default function Product() {
   useEffect(() => {
     getProduct();
     getProducts();
-  }, [search]);
+  },);
 
   const incrementQuantity = () => {
     if (quantity < 3) {

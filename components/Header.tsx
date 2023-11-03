@@ -31,6 +31,7 @@ export default function Header() {
                     categories.map(
                         (category) => (
                             <Link
+                            key= {category}
                              href={`/${category}`}
                             >
                                 {category}
